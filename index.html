@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Great Wolf Lodge survey</title> 
+    <!-- link to css stylesheet  down below-->
+    <link href="style.css" type="text/css" rel="stylesheet"></link>
+</head>
+<header></header>
+<main>
+    <body>
+        <!-- This is the top title bar with a following thank you message beneat it. -->
+        <div id="title-and-form-description">
+            <h1 id="title">Great Wolf Lodge Survey Form</h1>
+            <p id="description"><i>Thank you for helping us improve your future experience</i></p>
+        </div>
+            <!-- The div below creates a flexbox which allows me to center all the elements below and space them relatively easily -->
+        <div id="main-form-flexbox">
+
+            <!-- This is the survey form which will contain text types, radio buttons, checkboxes, and textareas, this will allow me to submit all of these as a form -->
+            <form id="survey-form" class="survey-formed">
+
+                <!-- These are the text input form attributes which gather client information -->
+                <label id="labels" for="name">Name</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+                <label id="labels" for="email">Email</label><br>
+                <input type="text" id="email" name="email" placeholder="Enter your email" required><br>
+                <label id="labels" for="number">Number</label><br>
+                <input type="text" id="number" name="number" placeholder="Enter your number" min="number" max="number"><br>
+
+                <!-- This is the dropdown menu for most enjoyed activity -->
+                <label id="labels" for="dropdown">What activity did you enjoy the most?</label><br>
+                <select name="dropdown" id="dropdown">
+                    <option value="Activities">Activities</option>
+                    <option value="Water Park">Water Park</option>
+                    <option value="Food Shop">Food Shop</option>
+                    <option value="Arcade">Arcade</option>
+                    <option value="Gift Shop">Gift Shop</option>
+                </select><br>
+                <!-- These is the first group of radio buttons -->
+                <br><label id="labels" for="recommend">Would you recommend The Great Wolf Lodge to Family or Friends?</label><br>
+                <input type="radio" name="recommend" id="recommend" value="yes">Yes<br>
+                <input type="radio" name="recommend" id="recommend" value="maybe">Maybe<br>
+                <input type="radio" name="recommend" id="recommend" value="no">No<br>
+                
+                <!-- These are the checkboxes with thier corresponding values -->
+                <br><label id="labels" for="checkboxes">What would you like to see improved at The Great Wolf Lodge? <br></label><br>
+                <input type="checkbox" name="checkboxes" id="checkboxes" value="customer service">Customer Service<br>
+                <input type="checkbox" name="checkboxes" id="checkboxes" value="cleanliness">Cleanliness<br>
+                <input type="checkbox" name="checkboxes" id="checkboxes" value="food choices">Food Choices<br>
+                <input type="checkbox" name="checkboxes" id="checkboxes" value="water park">Water Park<br>
+                <input type="checkbox" name="checkboxes" id="checkboxes" value="arcade">Arcade<br>
+                <input type="checkbox" name="checkboxes" id="checkboxes" value="hotel rooms">Hotel Rooms<br>
+                <input type="checkbox" name="checkboxes" id="checkboxes" value="gift shop">Gift Shop<br>
+
+                <!-- theses are buttons which let the client rate whether they would come again or not. -->
+                <br><label id="labels" for="come-again">Would you come to The Great Wolf Lodge again?</label><br>
+                <input type="radio" name="come-again" id="come-again" value="yes">Yes<br>
+                <input type="radio" name="come-again" id="come-again" value="maybe">Maybe<br>
+                <input type="radio" name="come-again" id="come-again" value="no">No<br>
+
+                <!-- An area for client to provide extra details that may not be covered in the primary questions of the survey form -->
+                <br><label id="labels" for="textarea">Any comments or suggestions?</label><br>
+                <textarea id="textarea" name="textarea" placeholder="Enter your comments here..."></textarea><br>
+                
+                <!-- this is the submit button at the bottom of the page -->
+                <button type="submit" id="submit" class="submit">Submit</button>
+
+            </form>
+        </div>
+
+    </body>
+</main>
+</html>

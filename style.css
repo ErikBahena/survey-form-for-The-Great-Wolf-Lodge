@@ -1,0 +1,80 @@
+
+#title-and-form-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #0B0603;
+    background-color: #EFE7D7;
+    border-left: 10px solid #AA1922;
+    border-right: 10px solid #AA1922;
+    border-top: 10px solid #AA1922;
+    border-radius: 5px 5px 0px 0px;
+}
+#title{
+    margin-top: 40px;
+}
+#description{
+    font-size: 1.25em;
+    margin-bottom: 1em;
+    margin-top: -.3em;
+}
+#main-form-flexbox{
+    border: 10px solid #AA1922;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #EFE7D7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+ 
+}
+
+ #name, #email, #number, #dropdown, #textarea{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin: inherit;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    font-family: inherit;
+}
+#submit{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin: inherit;
+    margin-bottom: 15px;
+    background-color: #AA1922;
+    color: #eee;
+    font-size: 1.1em;
+    font-family: inherit;
+}
+#textarea{
+    height: 150px;
+    resize: none;
+    font-size: 16px;
+}
+
+#recommend, #checkboxes, #come-again{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+textarea:focus, input:focus, select:focus{
+    outline: none;
+}
+
+body::-webkit-scrollbar {
+    width: .75em;
+}
+   
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #eee
+}
+   
+body::-webkit-scrollbar-thumb {
+    background-color: #ddd4c1;
+}
