@@ -14,7 +14,7 @@ Hello to whoever is reading this. This is my third project, I'm modeling a surve
 
 7.Commiting and pushing current progress to GitHub.
 
-You can see this project live at 
+You can see this project live at https://erikbahena.github.io/survey-form-for-The-Great-Wolf-Lodge/
 
 Thank you for reading :)
 
