@@ -10,7 +10,7 @@ Hello to whoever is reading this. This is my third project, I'm modeling a surve
 
 5.Adding the HTML content of: title bar, sub-title, labels, text forms with form validations, radio buttons, checkboxes, text-areas, and a button.
 
-6.CSS styling such as: borders and thier corresponding radiuses. Font families and font sizes. Flex display columns with centered positioning and proper responsiveness. Removing default focus attributes and color matching the companies logo.
+6.CSS styling such as: borders, font families and font sizes. Flex display columns with centered positioning and proper responsiveness. Removing default focus attributes and color matching the companies logo to the entire cite.
 
 7.Commiting and pushing current progress to GitHub.
 
